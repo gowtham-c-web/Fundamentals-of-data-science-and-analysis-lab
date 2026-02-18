@@ -7,6 +7,6 @@ f_stat, p_value = stats.f_oneway(group_1, group_2, group_3)
 print(f"F-statistic: {f_stat}")
 print(f"P-value: {p_value}")
 if p_value < 0.05:
-  print("There is a significant difference between the group means.")
+    print("There is a significant difference between the group means.")
 else:
-  print("There is no significant difference between the group means.")
+    print("There is no significant difference between the group means.")
